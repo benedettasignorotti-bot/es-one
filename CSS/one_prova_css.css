@@ -1,0 +1,371 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.sfondo-0, .sfondo-1, .sfondo-2 {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+
+.container-fluid > .row:first-child {
+    background-color: #fff;
+    position: relative;
+    z-index: 10;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.container-fluid {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+
+
+.titolo{
+    font-size: 100px;
+}
+
+.titoletti{
+    font-size: 60px;
+}
+
+.titolini{
+    font-size: 30px;
+}
+
+.testo{
+    font-weight: normal;
+    font-size: 20px;
+}
+
+    
+
+
+.logo{
+    width: 100%;
+    height: auto;
+    padding-top: 40px;
+    padding-left: 40px;
+    
+}
+
+.no-lista{
+    white-space: nowrap;
+    display: flex;
+    list-style: none;
+    gap: 40px; /* me lo distanzia da destra */
+    justify-content: flex-end;
+    padding-top: 40px;
+    background-color: #ffffff;
+    padding-bottom: 40px;   /*crea lo spazio sotto */
+    padding-right: 40px;   /*crea lo spazio a destra */
+}
+
+.contenuti-lista{
+    display: inline-block;
+}
+
+/* Dropdown menu per progetti */
+.nav-item {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #ffffff;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.1);
+    padding: 10px 0;
+    margin-top: 5px;
+    border-radius: 5px;
+    z-index: 1000;
+}
+
+.dropdown-content a {
+    color: #000000;
+    padding: 12px 20px;
+    text-decoration: none;
+    display: block;
+    font-weight: 400;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.nav-item:hover .dropdown-content {
+    display: block;
+}
+
+.contenuti-lista a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.contenuti-lista a:hover {
+
+    color: #016e11;
+}
+
+.nav-link-progetti {
+    cursor: pointer;
+}
+
+.nav-link-progetti:hover {
+    color: #016e11;
+}
+
+/* tra design, arte e natura */
+.titolo-grande{
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #000000;
+    padding-left: 40px;
+    
+}
+
+.sfondo-0{
+    background: transparent url('../img/foto_sfondo_!.png') no-repeat center center;
+    background-size: cover;
+    width: 100vw;
+    height: 750px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.chi-sono{
+    font-weight: 700;
+    line-height: 1.2;
+    color: #000000;
+    padding-top: 40px;
+    padding-bottom:40px;
+}
+
+.foto-mia{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    padding-right: 40px;
+}
+
+
+
+
+/* progetti grafici */
+.sfondo-1{
+    background: transparent url('../img/foto_sfondo_1.JPG') no-repeat center center;
+    background-size: cover;
+    width: 100vw;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.titolo-progetti{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #000000;
+    padding-left: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* genesi */
+.genesi{
+    font-weight: 700;
+    line-height: 1.2;
+    color: #000000;
+    padding-left: 40px;
+    padding-top: 50px;
+}
+
+.genesi-foto{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.genesi-foto-1{
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 40px;
+
+
+}
+
+/* protezione da motocross */
+.img-box {
+  width: 100%;
+  aspect-ratio: 550 / 600;     /* mantiene la proporzione 550x600 */
+  max-height: 80vh;            /* si adatta allo schermo, massimo 80% in altezza */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.protezione-motocross{
+    width: 100%;
+    height: auto;
+    display: block;
+    padding-right: 40px;
+}
+
+.paraschiena-1{
+    padding-left: 40px;
+}
+
+.paraschiena-2{
+    padding-right: 40px;
+}
+
+/* luce */
+.luce-foto{
+    width: 100%;
+    height: auto;
+    display: block;
+    padding-bottom: 40px;
+    padding-left: 40px;
+}
+
+.luce-foto-1{
+    width: 100%;
+    height: auto;
+    display: block;
+    padding-bottom: 40px;
+    height: 600px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+/* le mie inspirazioni */
+.sfondo-2{
+    background: transparent url('../img/foto_sfondo_2.JPG') no-repeat center center;
+    background-size: cover;
+    width: 100vw;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+.titolo-ispirazioni{
+    text-align: center;
+    padding-bottom: 30px;
+    
+}
+
+.titolo-ispirazioni-1{
+    text-align: center;
+}
+
+.ispirazioni{
+    width: 100%;
+    display: block;
+    padding-bottom: 10px;
+    height: 370px;
+    padding-top: 40px;
+}
+
+.padding-ispirazioni{
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+/* contatti */
+.contatti{
+    background-color: #D9D9D9;
+    height: 400px;
+    font-weight: bold;
+    line-height: 1.2;
+    color: #000000;
+    padding: 40px;  
+    text-align: center;
+}
+
+.contatti h2 {  
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.scritta-contatti{
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #000000;
+    padding-left: 0;  
+    padding-top: 20px;  
+    padding-bottom: 20px;  
+    text-align: center;
+}
+
+.scrivetemi-bottone{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #000000;
+    padding-left: 0;  
+    padding-top: 15px;  
+    text-align: center;
+}
+
+.scrivetemi-bottone a {  
+    color: #000000;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.scrivetemi-bottone a:hover {  
+    background-color: #016e11;
+    color: #fff;
+}
