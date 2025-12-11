@@ -149,6 +149,7 @@ html {
     line-height: 1.2;
     color: #000000;
     padding-left: 40px;
+    padding-bottom: 60px;
     
 }
 
@@ -199,9 +200,10 @@ html {
     font-weight: 700;
     line-height: 1.2;
     color: #000000;
-    padding-left: 40px;
+
     padding-top: 50px;
     padding-bottom: 50px;
+    text-align: center;
 }
 
 /* genesi */
@@ -386,7 +388,7 @@ html {
     }
     
     .titolo-grande {
-        font-size: 60px;
+        font-size: 50px;
         padding-bottom: 200px;
     }
 
