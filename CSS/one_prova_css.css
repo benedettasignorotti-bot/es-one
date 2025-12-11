@@ -369,3 +369,331 @@ html {
     background-color: #016e11;
     color: #fff;
 }
+
+
+/* versione mobile */
+@media (max-width: 768px) {
+    
+    .testo{
+        font-size: 20px;
+      
+    }
+    
+    .titolini{
+        font-size: 30px;
+        
+
+    }
+    
+    .titolo-grande {
+        font-size: 60px;
+        padding-bottom: 200px;
+    }
+
+    .titoletti{
+        font-size: 30px;
+        padding-top: 20px;  
+        padding-left: 20px;  
+        padding-right: 20px;  
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+   
+   
+    /* tra design, arte e natura */
+   
+    
+
+    /* chi sono */
+    .chi-sono .col-4,
+    .chi-sono .col-6 {
+        width: 100% !important;
+        margin-left: 0 !important;
+        padding: 0 px;
+    }
+    
+    .chi-sono .offset-1 {
+        margin-left: 0 !important;
+    }
+    
+    .chi-sono .row {
+        flex-direction: column;
+    }
+    
+    .chi-sono {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        
+    }
+
+    .chi-sono-testo{
+        padding-right: 20px;
+    }
+     
+    .foto-mia {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        align-items: center;
+        padding-top: 20px;
+        padding-right: 20px;
+    }
+       
+    
+    /* progetti  grafici */
+    
+    .genesi .col-6,
+    .genesi .col-4,
+    .genesi .col-12 {
+        width: 100% !important;
+        margin-left: 0 !important;
+        padding: 0 20px;
+    }
+    
+    
+    
+    .genesi .row {
+        flex-direction: column;
+       
+    }
+
+  
+    
+    .genesi {
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .genesi .row:first-child .col-6 {
+        order: 2;
+    }
+    
+    .genesi .row:first-child .col-4 {
+        order: 1;
+    }
+    
+  .genesi-foto{
+    padding-top: 20px;
+
+  }
+
+  .genesi-foto-1{
+    padding: 20px;
+  }
+
+  /* protezione da motocross */
+  
+
+    #protezione .col-4,
+    #protezione .col-6 {
+        width: 100% !important;
+        margin-left: 0 !important;
+      
+    }
+    
+    #protezione .offset-1 {
+        margin-left: 0 !important;
+    }
+    
+    #protezione .row {
+        flex-direction: column;
+    }
+    
+    /* Ordine elementi: prima il testo, poi la foto */
+    #protezione .col-6 {
+        order: 2;
+    }
+    
+    #protezione .col-4 {
+        order: 1;
+    }
+    
+    #protezione .titolini {
+        text-align: left;
+        padding-left: 20px;
+       
+    }
+    
+    
+    
+    #protezione .protezione-motocross {
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+        display: block;
+       
+    }
+    
+    /* Sezione con le due immagini una dopo l'altra */
+    .row .col-6.img-box {
+        width: 100% !important;
+        
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    
+    .paraschiena-1,
+    .paraschiena-2 {
+        width: 100%;
+        
+        height: auto;
+        display: block;
+    }
+
+    .testo-motcross{
+       
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: left
+        
+    }
+
+    .paraschiena-1{
+        padding-left: 20px;
+        padding-right: 20px;
+       
+       
+    }
+
+    .paraschiena-2{
+        padding-left: 20px;
+        padding-right: 20px;
+       
+    }
+
+    .protezione-motocross{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+    }
+
+    .img-box{
+       padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+
+
+    /* luce */
+    .luce .col-6,
+    .luce .col-4 {
+        width: 100% !important;
+        margin-left: 0 !important;
+        
+    }
+    
+    .luce .offset-1 {
+        margin-left: 0 !important;
+    }
+    
+    .luce .row {
+        flex-direction: column;
+    }
+    
+    /* Ordine elementi: prima il testo, poi la foto */
+    .luce .col-6 {
+        order: 2;
+    }
+    
+    .luce .col-4 {
+        order: 1;
+    }
+    
+    .luce .titolini {
+        text-align: left;
+        padding-left: 20px;
+        padding-right: 20px;
+        
+    }
+    
+    .luce .testo {
+        text-align: left;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        
+    }
+    
+    .luce .luce-foto {
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+
+    .luce-foto-1{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        height: 250px;
+
+    }
+
+    
+    
+    /* le mie ispirazioni */
+    #ispirazioni .offset-4.col-4 {
+        margin-left: 0 !important;   /* annulla l’offset */
+        width: 100% !important;       /* colonna piena */
+        max-width: 100% !important;
+    }
+    
+    /* Titolo mobile */
+    .titolo-ispirazioni {
+        font-size: 1.8rem;         /* leggibile ma non enorme */
+        line-height: 1.2;
+    }
+
+    /* Sottotitolo mobile */
+    .titolo-ispirazioni-1 {
+        font-size: 1rem;
+        
+    }
+
+
+    .padding-ispirazioni .col-4 {
+        width: 100% !important;
+        max-width: 100% !important;
+        /* spazio tra le card */
+    }
+
+    /* Titoli */
+    .titolini {
+        font-size: 1.4rem;
+       
+    }
+
+    /* Testo descrizione */
+    .testo {
+        font-size: 1rem;
+        margin-top: 5px;
+    }
+
+    .ispirazioni {
+        width: 100%;
+        height: 220px;            /* puoi modificarlo in base al design */
+        object-fit: cover;        /* mantiene proporzioni e ritaglia i bordi */
+        object-position: center;  /* centra il ritaglio */
+        padding-top: 20px;
+        padding-bottom: 20px;
+        
+    }
+
+    .padding-ispirazioni{
+        padding-left: 20px;
+        padding-right: 20px;
+       padding-bottom: 20px;
+    
+        margin: 0;
+    }
+}
