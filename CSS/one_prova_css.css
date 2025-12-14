@@ -1,4 +1,5 @@
-html, body{
+html,
+body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
@@ -18,7 +19,9 @@ html {
     scroll-behavior: smooth;
 }
 
-.sfondo-0, .sfondo-1, .sfondo-2 {
+.sfondo-0,
+.sfondo-1,
+.sfondo-2 {
     margin-left: 0 !important;
     margin-right: 0 !important;
     padding-left: 0 !important;
@@ -26,7 +29,7 @@ html {
 }
 
 
-.container-fluid > .row:first-child {
+.container-fluid>.row:first-child {
     background-color: #fff;
     position: relative;
     z-index: 10;
@@ -43,47 +46,50 @@ html {
 
 
 
-.titolo{
+.titolo {
     font-size: 100px;
 }
 
-.titoletti{
+.titoletti {
     font-size: 60px;
 }
 
-.titolini{
+.titolini {
     font-size: 30px;
 }
 
-.testo{
+.testo {
     font-weight: normal;
     font-size: 20px;
 }
 
-    
 
 
-.logo{
+
+.logo {
     width: 100%;
     height: auto;
     padding-top: 40px;
     padding-left: 40px;
-    
+
 }
 
-.no-lista{
+.no-lista {
     white-space: nowrap;
     display: flex;
     list-style: none;
-    gap: 40px; /* me lo distanzia da destra */
+    gap: 40px;
+    /* me lo distanzia da destra */
     justify-content: flex-end;
     padding-top: 40px;
     background-color: #ffffff;
-    padding-bottom: 40px;   /*crea lo spazio sotto */
-    padding-right: 40px;   /*crea lo spazio a destra */
+    padding-bottom: 40px;
+    /*crea lo spazio sotto */
+    padding-right: 40px;
+    /*crea lo spazio a destra */
 }
 
-.contenuti-lista{
+.contenuti-lista {
     display: inline-block;
 }
 
@@ -99,7 +105,7 @@ html {
     left: 0;
     background-color: #ffffff;
     min-width: 200px;
-    box-shadow: 0px 8px 16px rgba(0,0,0,0.1);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
     padding: 10px 0;
     margin-top: 5px;
     border-radius: 5px;
@@ -143,17 +149,17 @@ html {
 }
 
 /* tra design, arte e natura */
-.titolo-grande{
+.titolo-grande {
     font-size: 100px;
     font-weight: 700;
     line-height: 1.2;
     color: #000000;
     padding-left: 40px;
     padding-bottom: 60px;
-    
+
 }
 
-.sfondo-0{
+.sfondo-0 {
     background: transparent url('../img/foto_sfondo_!.png') no-repeat center center;
     background-size: cover;
     width: 100vw;
@@ -162,18 +168,18 @@ html {
     align-items: center;
     margin: 0;
     padding: 0;
-    
+
 }
 
-.chi-sono{
+.chi-sono {
     font-weight: 700;
     line-height: 1.2;
     color: #000000;
     padding-top: 40px;
-    padding-bottom:40px;
+    padding-bottom: 40px;
 }
 
-.foto-mia{
+.foto-mia {
     max-width: 100%;
     height: auto;
     display: block;
@@ -184,7 +190,7 @@ html {
 
 
 /* progetti grafici */
-.sfondo-1{
+.sfondo-1 {
     background: transparent url('../img/foto_sfondo_1.JPG') no-repeat center center;
     background-size: cover;
     width: 100vw;
@@ -195,7 +201,7 @@ html {
     padding: 0;
 }
 
-.titolo-progetti{
+.titolo-progetti {
     font-size: 60px;
     font-weight: 700;
     line-height: 1.2;
@@ -207,7 +213,7 @@ html {
 }
 
 /* genesi */
-.genesi{
+.genesi {
     font-weight: 700;
     line-height: 1.2;
     color: #000000;
@@ -215,13 +221,13 @@ html {
     padding-top: 50px;
 }
 
-.genesi-foto{
+.genesi-foto {
     width: 100%;
     height: auto;
     display: block;
 }
 
-.genesi-foto-1{
+.genesi-foto-1 {
     width: 100%;
     height: auto;
     display: block;
@@ -232,40 +238,43 @@ html {
 
 /* protezione da motocross */
 .img-box {
-  width: 100%;
-  aspect-ratio: 550 / 600;     /* mantiene la proporzione 550x600 */
-  max-height: 80vh;            /* si adatta allo schermo, massimo 80% in altezza */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  padding-bottom: 40px;
-  padding-top: 40px;
+    width: 100%;
+    aspect-ratio: 550 / 600;
+    /* mantiene la proporzione 550x600 */
+    max-height: 80vh;
+    /* si adatta allo schermo, massimo 80% in altezza */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding-bottom: 40px;
+    padding-top: 40px;
 }
 
 .img-box img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
 }
-.protezione-motocross{
+
+.protezione-motocross {
     width: 100%;
     height: auto;
     display: block;
     padding-right: 40px;
 }
 
-.paraschiena-1{
+.paraschiena-1 {
     padding-left: 40px;
 }
 
-.paraschiena-2{
+.paraschiena-2 {
     padding-right: 40px;
 }
 
 /* luce */
-.luce-foto{
+.luce-foto {
     width: 100%;
     height: auto;
     display: block;
@@ -273,7 +282,7 @@ html {
     padding-left: 40px;
 }
 
-.luce-foto-1{
+.luce-foto-1 {
     width: 100%;
     height: auto;
     display: block;
@@ -284,7 +293,7 @@ html {
 }
 
 /* le mie inspirazioni */
-.sfondo-2{
+.sfondo-2 {
     background: transparent url('../img/foto_sfondo_2.JPG') no-repeat center center;
     background-size: cover;
     width: 100vw;
@@ -296,17 +305,17 @@ html {
 
 }
 
-.titolo-ispirazioni{
+.titolo-ispirazioni {
     text-align: center;
     padding-bottom: 30px;
-    
+
 }
 
-.titolo-ispirazioni-1{
+.titolo-ispirazioni-1 {
     text-align: center;
 }
 
-.ispirazioni{
+.ispirazioni {
     width: 100%;
     display: block;
     padding-bottom: 10px;
@@ -314,50 +323,50 @@ html {
     padding-top: 40px;
 }
 
-.padding-ispirazioni{
+.padding-ispirazioni {
     padding-bottom: 40px;
     padding-left: 40px;
     padding-right: 40px;
 }
 
 /* contatti */
-.contatti{
+.contatti {
     background-color: #D9D9D9;
     height: 400px;
     font-weight: bold;
     line-height: 1.2;
     color: #000000;
-    padding: 40px;  
+    padding: 40px;
     text-align: center;
 }
 
-.contatti h2 {  
+.contatti h2 {
     font-size: 40px;
     margin-bottom: 20px;
 }
 
-.scritta-contatti{
+.scritta-contatti {
     font-size: 25px;
     font-weight: 400;
     line-height: 1.2;
     color: #000000;
-    padding-left: 0;  
-    padding-top: 20px;  
-    padding-bottom: 20px;  
+    padding-left: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
     text-align: center;
 }
 
-.scrivetemi-bottone{
+.scrivetemi-bottone {
     font-size: 25px;
     font-weight: 700;
     line-height: 1.2;
     color: #000000;
-    padding-left: 0;  
-    padding-top: 15px;  
+    padding-left: 0;
+    padding-top: 15px;
     text-align: center;
 }
 
-.scrivetemi-bottone a {  
+.scrivetemi-bottone a {
     color: #000000;
     text-decoration: none;
     display: inline-block;
@@ -367,45 +376,50 @@ html {
     transition: background-color 0.3s;
 }
 
-.scrivetemi-bottone a:hover {  
+.scrivetemi-bottone a:hover {
     background-color: #016e11;
     color: #fff;
 }
 
 
+.hamburger-conteiner {
+    display: none;
+}
+
+
 /* versione mobile */
 @media (max-width: 768px) {
-    
-    .testo{
+
+    .testo {
         font-size: 20px;
-      
-    }
-    
-    .titolini{
-        font-size: 30px;
-        
 
     }
-    
+
+    .titolini {
+        font-size: 30px;
+
+
+    }
+
     .titolo-grande {
         font-size: 50px;
         padding-bottom: 200px;
     }
 
-    .titoletti{
+    .titoletti {
         font-size: 30px;
-        padding-top: 20px;  
-        padding-left: 20px;  
-        padding-right: 20px;  
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
         text-align: center;
         align-items: center;
         justify-content: center;
     }
-   
-   
+
+
     /* tra design, arte e natura */
-   
-    
+
+
 
     /* chi sono */
     .chi-sono .col-4,
@@ -414,26 +428,26 @@ html {
         margin-left: 0 !important;
         padding: 0 px;
     }
-    
+
     .chi-sono .offset-1 {
         margin-left: 0 !important;
     }
-    
+
     .chi-sono .row {
         flex-direction: column;
     }
-    
+
     .chi-sono {
         padding-top: 20px;
         padding-bottom: 20px;
         padding-left: 20px;
-        
+
     }
 
-    .chi-sono-testo{
+    .chi-sono-testo {
         padding-right: 20px;
     }
-     
+
     .foto-mia {
         width: 100%;
         max-width: 400px;
@@ -445,10 +459,10 @@ html {
         padding-top: 20px;
         padding-right: 20px;
     }
-       
-    
+
+
     /* progetti  grafici */
-    
+
     .genesi .col-6,
     .genesi .col-4,
     .genesi .col-12 {
@@ -456,127 +470,126 @@ html {
         margin-left: 0 !important;
         padding: 0 20px;
     }
-    
-    
-    
+
+
+
     .genesi .row {
         flex-direction: column;
-       
+
     }
 
-  
-    
+
+
     .genesi {
         padding-top: 20px;
         padding-left: 20px;
         padding-right: 20px;
     }
-    
+
     .genesi .row:first-child .col-6 {
         order: 2;
     }
-    
+
     .genesi .row:first-child .col-4 {
         order: 1;
     }
-    
-  .genesi-foto{
-    padding-top: 20px;
 
-  }
+    .genesi-foto {
+        padding-top: 20px;
 
-  .genesi-foto-1{
-    padding: 20px;
-  }
+    }
 
-  /* protezione da motocross */
-  
+    .genesi-foto-1 {
+        padding: 20px;
+    }
+
+    /* protezione da motocross */
+
 
     #protezione .col-4,
     #protezione .col-6 {
         width: 100% !important;
         margin-left: 0 !important;
-      
+
     }
-    
+
     #protezione .offset-1 {
         margin-left: 0 !important;
     }
-    
+
     #protezione .row {
         flex-direction: column;
     }
-    
+
     /* Ordine elementi: prima il testo, poi la foto */
     #protezione .col-6 {
         order: 2;
     }
-    
+
     #protezione .col-4 {
         order: 1;
     }
-    
+
     #protezione .titolini {
         text-align: left;
         padding-left: 20px;
-       
+
     }
-    
-    
-    
+
+
+
     #protezione .protezione-motocross {
         width: 100%;
         max-width: 500px;
         height: auto;
         display: block;
-       
+
     }
-    
+
     /* Sezione con le due immagini una dopo l'altra */
     .row .col-6.img-box {
         width: 100% !important;
-        
+
         flex: 0 0 100%;
         max-width: 100%;
     }
-    
+
     .paraschiena-1,
     .paraschiena-2 {
         width: 100%;
-        
+
         height: auto;
         display: block;
     }
 
-    .testo-motcross{
-       
+    .testo-motcross {
+
         padding-left: 20px;
         padding-right: 20px;
         text-align: left
-        
     }
 
-    .paraschiena-1{
+    .paraschiena-1 {
         padding-left: 20px;
         padding-right: 20px;
-       
-       
+
+
     }
 
-    .paraschiena-2{
+    .paraschiena-2 {
         padding-left: 20px;
         padding-right: 20px;
-       
+
     }
 
-    .protezione-motocross{
+    .protezione-motocross {
         padding-left: 20px;
         padding-right: 20px;
         padding-top: 20px;
     }
 
-    .img-box{
-       padding-bottom: 20px;
+    .img-box {
+        padding-bottom: 20px;
         padding-top: 20px;
     }
 
@@ -587,41 +600,41 @@ html {
     .luce .col-4 {
         width: 100% !important;
         margin-left: 0 !important;
-        
+
     }
-    
+
     .luce .offset-1 {
         margin-left: 0 !important;
     }
-    
+
     .luce .row {
         flex-direction: column;
     }
-    
+
     /* Ordine elementi: prima il testo, poi la foto */
     .luce .col-6 {
         order: 2;
     }
-    
+
     .luce .col-4 {
         order: 1;
     }
-    
+
     .luce .titolini {
         text-align: left;
         padding-left: 20px;
         padding-right: 20px;
-        
+
     }
-    
+
     .luce .testo {
         text-align: left;
         padding-left: 20px;
         padding-right: 20px;
         padding-bottom: 20px;
-        
+
     }
-    
+
     .luce .luce-foto {
         width: 100%;
         max-width: 500px;
@@ -633,7 +646,7 @@ html {
         padding-bottom: 20px;
     }
 
-    .luce-foto-1{
+    .luce-foto-1 {
         padding-left: 20px;
         padding-right: 20px;
         padding-bottom: 20px;
@@ -641,25 +654,28 @@ html {
 
     }
 
-    
-    
+
+
     /* le mie ispirazioni */
     #ispirazioni .offset-4.col-4 {
-        margin-left: 0 !important;   /* annulla l’offset */
-        width: 100% !important;       /* colonna piena */
+        margin-left: 0 !important;
+        /* annulla l’offset */
+        width: 100% !important;
+        /* colonna piena */
         max-width: 100% !important;
     }
-    
+
     /* Titolo mobile */
     .titolo-ispirazioni {
-        font-size: 1.8rem;         /* leggibile ma non enorme */
+        font-size: 1.8rem;
+        /* leggibile ma non enorme */
         line-height: 1.2;
     }
 
     /* Sottotitolo mobile */
     .titolo-ispirazioni-1 {
         font-size: 1rem;
-        
+
     }
 
 
@@ -671,7 +687,7 @@ html {
 
     /* Titoli */
     .titolini {
-        font-size: 1.4rem;      
+        font-size: 1.4rem;
     }
 
     /* Testo descrizione */
@@ -682,28 +698,204 @@ html {
 
     .ispirazioni {
         width: 100%;
-        height: 220px;            /* puoi modificarlo in base al design */
-        object-fit: cover;        /* mantiene proporzioni e ritaglia i bordi */
-        object-position: center;  /* centra il ritaglio */
+        height: 220px;
+        /* puoi modificarlo in base al design */
+        object-fit: cover;
+        /* mantiene proporzioni e ritaglia i bordi */
+        object-position: center;
+        /* centra il ritaglio */
         padding-top: 20px;
         padding-bottom: 20px;
-        
+
     }
 
-    .padding-ispirazioni{
+    .padding-ispirazioni {
         padding-left: 20px;
         padding-right: 20px;
-       padding-bottom: 20px;
+        padding-bottom: 20px;
         margin: 0;
     }
+
+
+    .nav-menu {
+        display: none;
+    }
+
+    .hamburger-conteiner {
+        display: block;
+    }
+
+    .menu-list {
+        display: none;
+    }
+
+    .dropdown {
+        position: relative;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 200px;
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #f1f1f1;
+    }
+
+    /* Mostra il dropdown quando passi sopra il li */
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+
+    .menu-icon {
+        color: #000000;
+        text-decoration: none !important;
+        align-items: center;
+
+
+    }
+
+    .hamburger-conteiner {
+
+        top: 20px;
+        right: 20px;
+        z-index: 1000;
+        /* per stare sopra gli altri elementi */
+    }
+
+    .menu-list {
+        background-color: white;
+        padding: 10px 20px;
+        /* aggiungi padding per dare spazio */
+        text-align: right;
+    }
+
+    .menu-list li {
+        background-color: white;
+    }
+
+    .hamburger-conteiner {
+
+        top: 30px;
+        right: 2%;
+        /* usa percentuale */
+        z-index: 1000;
+        width: auto;
+    }
+
+    .menu-list {
+        background-color: white;
+        padding: 25px 25px;
+        text-align: right;
+        margin: 0;
+        list-style: none;
+    }
+
+    .hamburger-conteiner {
+
+        top: 30px;
+        right: 2%;
+        z-index: 1000;
+        text-align: right;
+        /* allinea tutto a destra */
+    }
+
+    .menu-icon {
+        display: inline-block;
+        text-align: right;
+    }
+
+    .dropdown-content {
+        position: absolute;
+        right: 0;
+        left: auto;
+        text-align: right;
+        background-color: white;
+        padding: 10px 20px;
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+        margin-top: 0;
+        /* rimuovi margine superiore */
+        top: 100%;
+        /* posiziona subito sotto */
+    }
+
+    .dropdown {
+        position: relative;
+        margin-bottom: 0;
+        /* rimuovi margine inferiore */
+    }
+
+    .menu-list a {
+        color: black !important;
+        text-decoration: none !important;
+    }
+
+    .menu-list a:hover,
+    .menu-list a:visited,
+    .menu-list a:link,
+    .menu-list a:active {
+        color: black !important;
+        text-decoration: none !important;
+    }
+
+    .dropdown-content a {
+        color: black !important;
+        text-decoration: none !important;
+    }
+
+    .dropdown-content a:hover,
+    .dropdown-content a:visited,
+    .dropdown-content a:link,
+    .dropdown-content a:active {
+        color: black !important;
+        text-decoration: none !important;
+    }
+
+    .menu-list a:hover {
+        color: #016e11 !important;
+    }
+
+    .dropdown-content a:hover {
+        color: #016e11 !important;
+    }
+
+    .menu-list {
+        background-color: white;
+        padding: 10px 20px;
+        /* padding ridotto come il dropdown */
+        text-align: right;
+        margin: 0;
+        list-style: none;
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+        /* stessa ombra del dropdown */
+        display: none;
+        /* nascosto di default */
+        width: auto;
+        /* larghezza automatica */
+        min-width: 150px;
+        /* larghezza minima */
+    }
+
+    .menu-list.show {
+        display: block;
+        /* mostra quando aperto */
+    }
+
+    .menu-list li {
+        background-color: white;
+        padding: 8px 0;
+        /* spaziatura tra le voci */
+    }
 }
-
-
-
-
-
-
-
-
-
-
